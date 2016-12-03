@@ -39,7 +39,7 @@ update msg model =
             model ++ " (some text)"
 
 
-view : String -> Html Msg
+view : Model -> Html Msg
 view model =
     div []
         [ h1 [] [ text "Exercise 3" ]
