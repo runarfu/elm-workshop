@@ -22,15 +22,15 @@ Packages configured successfully!
 ```
 - Run `elm reactor` with `$ elm reactor`, also in the root directory.
 - Navigate to http://localhost:8000/ in a web browser.
-- Navigate to `src/01/Main.elm` to compile and run that file.
+- Navigate to `src/01.elm` to compile and run that file.
 - Whenever you've changed the code in an Elm-file, you can recompile and run
 the app simply by hitting refresh in the browser. Compiler errors will also be
 shown in the browser.
 
 ## Working with the exercises
-- You're supposed to work your way through the different directories under `src`.
-- Start with `src/01` (as described in the previous paragraphs), then move on to
-`src/02` and so on.
+- You're supposed to work your way through the different source files under `src`.
+- Start with `src/01.Elm` (as described in the previous paragraphs), then move on to
+`src/02.Elm` and so on.
 - Solve the exercises prefixed with `TODO`.
 - Try not to look at other directories than the one you're working with, as
 there will be answers/spoilers to some of the exercises there.
