@@ -48,7 +48,7 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div []
-        [ h1 [] [ text "Exercise 5" ]
+        [ h1 [] [ text "Exercise 6" ]
         , p [] [ text model.wordsToWrite ]
         , textarea [ onInput TextEntered ] []
         , p [] [ text ("Input equals wordsToWrite: " ++ (toString (model.userInput == model.wordsToWrite))) ]
