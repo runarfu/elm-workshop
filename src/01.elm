@@ -27,7 +27,7 @@ main =
 
 
 view _ =
-    h1 [] [ text "Excercise 1" ]
+    h1 [] [ text "Exercise 1" ]
 
 
 update _ m =
