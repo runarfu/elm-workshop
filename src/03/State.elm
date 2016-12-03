@@ -5,4 +5,6 @@ import Types exposing (..)
 
 update : Msg -> Model -> Model
 update msg model =
-    model
+    case msg of
+        AppendSomeText ->
+            model ++ " (some text)"
