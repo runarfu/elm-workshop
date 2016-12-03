@@ -21,7 +21,7 @@ Starting downloads...
 Packages configured successfully!
 ```
 - Run `elm reactor` with `$ elm reactor`, also in the root directory.
-- Navigate to http://localhost:8000/ in a web browser.
+- Navigate to [http://localhost:8000/](http://localhost:8000/) in a web browser.
 - Navigate to `src/01.elm` to compile and run that file.
 - Whenever you've changed the code in an Elm-file, you can recompile and run
 the app simply by hitting refresh in the browser. Compiler errors will also be
