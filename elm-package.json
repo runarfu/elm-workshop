@@ -4,7 +4,7 @@
     "repository": "http://github.com/runarfu/elm-workshop.git",
     "license": "GNU GPL",
     "source-directories": [
-        "src"
+        "exercises"
     ],
     "exposed-modules": [],
     "dependencies": {
