@@ -3,7 +3,8 @@ module Main exposing (..)
 import Html exposing (..)
 
 
--- TODO 2.0 Introduce a type to replace the type variable `a`.
+-- TODO 2.0 Introduce a type called `Msg` (an Elm convention). Replace the
+--          type variables `a` with this type.
 --
 -- TODO 2.1 Add a button to the view.
 --
@@ -12,6 +13,9 @@ import Html exposing (..)
 --
 -- TODO 2.3 Make your `update`-function do something with the model when the
 --          button has been pressed. For instance, append some text to the model.
+--          Hint: Using `_` as parameters in a function means disregarding the
+--                input value. You need to swap this with some name to be able
+--                to use the value Elm sends as the first argument to `update`.
 
 
 main : Program Never String a
