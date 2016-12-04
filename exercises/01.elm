@@ -11,7 +11,18 @@ import Html exposing (..)
 --          and show you the result. Any changes to `Main.elm` can be recompiled
 --          simply by refreshing the page in the browser.
 --
--- TODO 1.2 Display the model value `1337` somehow.
+-- TODO 1.2 Display the model value 1337 somehow.
+--          Hint: Elm never implicitly converts values, so you will need to get
+--                a string representation of the number 1337.
+--
+-- TODO 1.3 Add a paragraph with some text in it.
+--          Hint: Use `div` to nest HTML functions.
+--
+-- TODO 1.4 Change the model type to be a `String` instead, and assign a string
+--          value to it instead of the number 1337. Edit `view` and `update` so
+--          the string value is displayed.
+--          Hint: Let the Elm compiler help you. Start by replacing 1337 with
+--                a string, and read the error messages the compiler gives you.
 
 
 main : Program Never Int a
