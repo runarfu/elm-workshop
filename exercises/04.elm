@@ -1,7 +1,7 @@
 module Main exposing (..)
 
 import Html exposing (..)
-import Html.Events exposing (..)
+import Html.Attributes exposing (..)
 
 
 -- TODO 4.0 Update the `userInput`-field in the model when text is entered in
@@ -41,7 +41,7 @@ update msg model =
 
 view : Model -> Html Msg
 view model =
-    div []
+    div [ style [ ( "text-align", "center" ) ] ]
         [ h1 [] [ text "Exercise 4" ]
         , textarea [] []
         , p [] [ text (toString model) ]

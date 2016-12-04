@@ -8,6 +8,12 @@ import Html.Events exposing (..)
 --
 -- TODO 3.1 Make the new button clear the model (set it to "").
 --          Hint: Add a type constructor to `Msg`.
+--
+-- TODO 3.2 Center everything in the page.
+--          Hint: The first argument to any HTML-generating function is a list
+--                of attributes. One such attribute is called `style`, and this
+--                is yet another function, which can be used with a list of
+--                styles as the tuple `(style-key, style-value)`.
 
 
 main : Program Never Model Msg
