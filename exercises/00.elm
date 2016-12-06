@@ -8,6 +8,7 @@ import Html.Attributes exposing (..)
 -- Eksempelprogram med norske navn på alt som vi definerer selv - for å tydeliggjøre
 -- at ofte brukte begreper som `Msg` og `Model` er konvensjoner, og trenger ikke
 -- å bli fulgt.
+-- TODO 0.0 Legg til funksjonalitet for å kvadrere gjeldende tall (knapp og logikk).
 
 
 main : Program Never MinDatamodell Melding
