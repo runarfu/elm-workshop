@@ -1,8 +1,8 @@
 {
     "version": "1.0.0",
-    "summary": "helpful summary of your project, less than 80 characters",
-    "repository": "https://github.com/user/project.git",
-    "license": "BSD3",
+    "summary": "Type(safe) Racer - A game for improving typing skills, inspired by TypeRacer",
+    "repository": "http://github.com/runarfu/elm-workshop.git",
+    "license": "GNU GPL",
     "source-directories": [
         "."
     ],
