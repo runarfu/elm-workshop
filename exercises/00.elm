@@ -9,6 +9,8 @@ import Html.Attributes exposing (..)
 -- at ofte brukte begreper som `Msg` og `Model` er konvensjoner, og trenger ikke
 -- å bli fulgt.
 -- TODO 0.0 Legg til funksjonalitet for å kvadrere gjeldende tall (knapp og logikk).
+--
+-- TODO 0.1 Legg til funksjonalitet på å dele gjeldende tall på 2.
 
 
 main : Program Never MinDatamodell Melding
