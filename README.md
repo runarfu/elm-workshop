@@ -36,6 +36,11 @@ shown in the browser.
 - Try not to look at other directories than the one you're working with, as
 there will be answers/spoilers to some of the exercises there.
 
+## The `extras` project
+This project is an example of one possible way of doing test driven development
+in Elm. It has a few extra dependencies which need to be installed, and the tests
+can be run with `elm reactor`; simply navigate to `src/tests/Main.elm`.
+
 ## The `typesafe-racer` project
 This project consists of multiple source files, with `Main.elm` being the entry
 point, tying everything together.
