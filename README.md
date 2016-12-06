@@ -36,6 +36,14 @@ shown in the browser.
 - Try not to look at other directories than the one you're working with, as
 there will be answers/spoilers to some of the exercises there.
 
+## The `typesafe-racer` project
+This project consists of multiple source files, with `Main.elm` being the entry
+point, tying everything together.
+
+The goal of this project is to develop something similar to
+[TypeRacer](http://play.typeracer.com/), using techniques learned from working
+with the exercises.
+
 ## Learning resources
 - https://guide.elm-lang.org
 - http://faq.elm-community.org/
