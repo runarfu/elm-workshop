@@ -1,11 +1,13 @@
 module ListFunctions exposing (..)
 
+import String
+
 
 commaSeparate : List String -> String
-commaSeparate strings =
-    "TODO"
+commaSeparate =
+    String.join ", "
 
 
 totalStringLength : List String -> Int
-totalStringLength strings =
-    -1
+totalStringLength =
+    List.sum << List.map String.length
