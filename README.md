@@ -8,7 +8,7 @@
 - https://guide.elm-lang.org/install.html#configure-your-editor
 
 ## Building and running the exercises in this repository
-- In the root directory, run `$ elm package install -y` to install the
+- In the `exercises` directory, run `$ elm package install -y` to install the
 requirements in `elm-package.json`.
 - The output should look like this:
 ```bash
@@ -20,17 +20,18 @@ Starting downloads...
 
 Packages configured successfully!
 ```
-- Run `elm reactor` with `$ elm reactor`, also in the root directory.
+- Run `elm reactor` with `$ elm reactor`, in the `exercises` directory.
 - Navigate to [http://localhost:8000/](http://localhost:8000/) in a web browser.
-- Navigate to `exercises/01.elm` to compile and run that file.
+- Navigate to `01.elm` to compile and run that file. (`00.elm` is special, as it
+ is written with Norwegian names to emphemphasize which names are optional).
 - Whenever you've changed the code in an Elm-file, you can recompile and run
 the app simply by hitting refresh in the browser. Compiler errors will also be
 shown in the browser.
 
 ## Working with the exercises
 - You're supposed to work your way through the different source files under `exercises`.
-- Start with `exercises/01.Elm` (as described in the previous paragraphs), then move on to
-`exercises/02.Elm` and so on.
+- Start with `exercises/01.elm` (as described in the previous paragraphs), then move on to
+`exercises/02.elm` and so on.
 - Solve the exercises prefixed with `TODO`.
 - Try not to look at other directories than the one you're working with, as
 there will be answers/spoilers to some of the exercises there.
