@@ -8,6 +8,7 @@ import Html.Attributes exposing (..)
 --          the textarea.
 --          Hint: Only 2 lines need to be edited, one in the view-function and
 --                another in the update-function.
+--                There is a special syntax for updating fields in a record type.
 
 
 main : Program Never Model Msg
