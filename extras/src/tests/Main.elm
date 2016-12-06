@@ -20,4 +20,8 @@ testExpectations =
             \() ->
                 ListFunctions.commaSeparate [ "apple", "pear", "banana" ]
                     |> Expect.equal "apple, pear, banana"
+        , test "Total string length should work" <|
+            \() ->
+                ListFunctions.totalStringLength [ "apple", "pear", "banana" ]
+                    |> Expect.equal 15
         ]
