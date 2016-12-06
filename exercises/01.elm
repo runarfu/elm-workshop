@@ -3,12 +3,12 @@ module Main exposing (..)
 import Html exposing (..)
 
 
--- TODO 1.0 Build this app with `elm make --warn Main.elm` or run it with `elm reactor`.
+-- TODO 1.0 Build this app with `elm make --warn 01.elm` or run it with `elm reactor`.
 --
 -- TODO 1.1 Look at the result in a web browser.
 --          If you used `elm make`, open `index.html`.
---          If you used `elm reactor`, navigate to `Main.elm`, and it will compile
---          and show you the result. Any changes to `Main.elm` can be recompiled
+--          If you used `elm reactor`, navigate to `01.elm`, and it will compile
+--          and show you the result. Any changes to `01.elm` can be recompiled
 --          simply by refreshing the page in the browser.
 --
 -- TODO 1.2 Display the model value 1337 somehow.
