@@ -5,10 +5,10 @@ import Html.Attributes exposing (..)
 import Html.Events exposing (..)
 
 
--- TODO 4.0 Update the `userInput`-field in the model when text is entered in
+-- TODO 4.0 Update the `userInput` field in the model when text is entered in
 --          the textarea.
---          Hint: Only 2 lines need to be edited, one in the view-function and
---                another in the update-function.
+--          Hint: Only 2 lines need to be edited, one in the view function and
+--                another in the update function.
 --                There is a special syntax for updating fields in a record type.
 
 

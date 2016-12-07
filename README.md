@@ -24,7 +24,7 @@ Packages configured successfully!
 - Navigate to [http://localhost:8000/](http://localhost:8000/) in a web browser.
 - Navigate to `01.elm` to compile and run that file. (`00.elm` is special, as it
  is written with Norwegian names to emphemphasize which names are optional).
-- Whenever you've changed the code in an Elm-file, you can recompile and run
+- Whenever you've changed the code in an Elm file, you can recompile and run
 the app simply by hitting refresh in the browser. Compiler errors will also be
 shown in the browser.
 
@@ -33,7 +33,7 @@ shown in the browser.
 - Start with `exercises/01.elm` (as described in the previous paragraphs), then move on to
 `exercises/02.elm` and so on.
 - Solve the exercises prefixed with `TODO`.
-- Try not to look at other directories than the one you're working with, as
+- Try not to look at other files than the one you're working on, as
 there will be answers/spoilers to some of the exercises there.
 
 ## The `extras` project

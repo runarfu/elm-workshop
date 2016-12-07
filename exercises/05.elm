@@ -5,7 +5,7 @@ import Html.Events exposing (..)
 
 
 -- TODO 5.0 Display the input string UPPERCASED somewhere.
---          Hint: Look at the `String`- and `Char`-modules. You will have to
+--          Hint: Look at the `String` and `Char` modules. You will have to
 --                import them to use them.
 --
 -- TODO 5.1 Set the textarea to be automatically in focus when the page is loaded.

@@ -11,8 +11,8 @@ import Html exposing (..)
 -- TODO 2.2 Make Elm send a message to `update` (of the type you introduced in 2.0)
 --          when the button is pressed.
 --
--- TODO 2.3 Make your `update`-function do something with the model when the
---          button has been pressed. For instance, append some text to the model.
+-- TODO 2.3 Make your `update` function do something with the model when the
+--          button is pressed. For instance, append some text to the model.
 --          Hint: Using `_` as parameters in a function means disregarding the
 --                input value. You need to swap this with some name to be able
 --                to use the value Elm sends as the first argument to `update`.
