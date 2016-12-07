@@ -2,11 +2,8 @@ module Main exposing (..)
 
 import Html exposing (..)
 import Html.Events exposing (..)
-
-
--- TODO 6.0 Displaying two boolean values is boring. Instead, style the display
---          of `wordsToWrite` so that it's easy to see how far in the `wordsToWrite`
---          you've come.
+import Html.Attributes exposing (..)
+import String
 
 
 main : Program Never Model Msg
@@ -45,10 +42,36 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div []
-        [ h1 [] [ text "Exercise 6" ]
-        , p [] [ text model.wordsToWrite ]
+        [ h1 [] [ text "Exercise 7" ]
+        , viewWordsToWriteWithHighlighting model
         , textarea [ onInput TextEntered ] []
         , p [] [ text ("Input is prefix of wordsToWrite: " ++ (toString (String.startsWith model.userInput model.wordsToWrite))) ]
         , p [] [ text ("Input equals wordsToWrite: " ++ (toString (model.userInput == model.wordsToWrite))) ]
         , p [] [ text (toString model) ]
         ]
+
+
+viewWordsToWriteWithHighlighting : Model -> Html Msg
+viewWordsToWriteWithHighlighting model =
+    let
+        splitOnPrefix s1 s2 =
+            if String.startsWith s1 s2 then
+                Just ( s1, String.dropLeft (String.length s1) s2 )
+            else
+                Nothing
+
+        correctStyle =
+            style [ ( "color", "darkgreen" ), ( "background-color", "lightgreen" ) ]
+
+        wrongStyle =
+            style [ ( "color", "darkred" ), ( "background-color", "pink" ) ]
+    in
+        case splitOnPrefix model.userInput model.wordsToWrite of
+            Just ( firstPart, rest ) ->
+                div []
+                    [ span [ correctStyle ] [ text firstPart ]
+                    , span [] [ text rest ]
+                    ]
+
+            Nothing ->
+                div [ wrongStyle ] [ text model.wordsToWrite ]
