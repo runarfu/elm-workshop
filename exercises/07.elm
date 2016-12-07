@@ -6,9 +6,6 @@ import Html.Attributes exposing (..)
 import String
 
 
--- TODO 7.0
-
-
 main : Program Never Model Msg
 main =
     beginnerProgram
@@ -45,7 +42,7 @@ update msg model =
 view : Model -> Html Msg
 view model =
     div []
-        [ h1 [] [ text "Exercise 6" ]
+        [ h1 [] [ text "Exercise 7" ]
         , viewWordsToWriteWithHighlighting model
         , textarea [ onInput TextEntered ] []
         , p [] [ text ("Input is prefix of wordsToWrite: " ++ (toString (String.startsWith model.userInput model.wordsToWrite))) ]
