@@ -2,12 +2,10 @@ module Main exposing (..)
 
 import Html exposing (..)
 import Html.Events exposing (..)
+import String
 
 
--- TODO 6.0 Display whether the `inputString` is a *prefix* of `wordsToWrite`,
---          i.e. is what's written so far correct or not?
---
--- TODO 6.1 Displaying two boolean values is boring. Instead, style the display
+-- TODO 6.0 Displaying two boolean values is boring. Instead, style the display
 --          of `wordsToWrite` so that it's easy to see how far in the `wordsToWrite`
 --          you've come.
 
@@ -51,6 +49,7 @@ view model =
         [ h1 [] [ text "Exercise 6" ]
         , p [] [ text model.wordsToWrite ]
         , textarea [ onInput TextEntered ] []
+        , p [] [ text ("Input is prefix of wordsToWrite: " ++ (toString (String.startsWith model.userInput model.wordsToWrite))) ]
         , p [] [ text ("Input equals wordsToWrite: " ++ (toString (model.userInput == model.wordsToWrite))) ]
         , p [] [ text (toString model) ]
         ]

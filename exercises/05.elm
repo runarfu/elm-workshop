@@ -15,6 +15,9 @@ import Html.Events exposing (..)
 --
 -- TODO 5.3 Display `wordsToWrite`. Also display something indicating whether
 --          the input string equals `wordsToWrite` or not.
+--
+-- TODO 5.4 Display whether the `inputString` is a *prefix* of `wordsToWrite`,
+--          i.e. is what's written so far correct or not?
 
 
 main : Program Never Model Msg
