@@ -61,10 +61,10 @@ viewWordsToWriteWithHighlighting model =
                 Nothing
 
         correctStyle =
-            style [ ( "color", "green" ), ( "background-color", "gray" ) ]
+            style [ ( "color", "darkgreen" ), ( "background-color", "lightgreen" ) ]
 
         wrongStyle =
-            style [ ( "color", "red" ), ( "background-color", "gray" ) ]
+            style [ ( "color", "darkred" ), ( "background-color", "pink" ) ]
     in
         case splitOnPrefix model.userInput model.wordsToWrite of
             Just ( firstPart, rest ) ->
