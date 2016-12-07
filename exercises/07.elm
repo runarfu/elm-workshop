@@ -74,4 +74,6 @@ viewWordsToWriteWithHighlighting model =
                     ]
 
             Nothing ->
-                div [ wrongStyle ] [ text model.wordsToWrite ]
+                div []
+                    [ span [ wrongStyle ] [ text model.wordsToWrite ]
+                    ]
